@@ -1,4 +1,4 @@
-# End-to-end Azure Data Engineering Project demonstrating ETL
+# End-To-End Azure Data Engineering Project Demonstrating ETL
 
 End-to-end ETL pipeline built on Azure, using Azure Data Factory and Azure Databricks to ingest, transform, and process data through a Bronze → Silver → Gold medallion architecture.
 
