@@ -68,5 +68,7 @@ MALAVIKA-S/
 ## Author
 
 **Malavika S**
-Data Engineer | Azure · Databricks · PySpark · SQL
-[LinkedIn](https://www.linkedin.com/in/malavika-s-35a383215) · smalavika845@gmail.com
+Data Engineer | 
+Azure · Databricks · PySpark · SQL |
+[LinkedIn](https://www.linkedin.com/in/malavika-s-35a383215) 
+smalavika845@gmail.com
