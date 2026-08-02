@@ -18,7 +18,7 @@ This project demonstrates a complete Azure data engineering workflow — from ra
 ## Architecture
 
 
-[Source system:On-premise SQL DB]->ADL location->Azure Data Factory ──► Azure Data Lake Storage->Azure Databricks (PySpark + Delta -Lake)>Bronze(raw),Silver(cleaned),Gold(aggregated)->Power BI dashboard-> CI/CD: GitHub Actions automates pipeline/notebook deployment
+[Source system:On-premise SQL DB]->ADL location->Azure Data Factory ──► Azure Data Lake Storage->Azure Databricks (PySpark + Delta -Lake)->Bronze(raw),Silver(cleaned),Gold(aggregated)->Power BI dashboard-> CI/CD: GitHub Actions automates pipeline/notebook deployment
                                                                                                                                
 
 ## Tech stack
@@ -39,7 +39,7 @@ This project demonstrates a complete Azure data engineering workflow — from ra
 - **Silver layer** — cleans and standardizes the data: handling nulls, correcting data types, removing duplicates.
 - **Gold layer** — produces aggregated, analytics-ready tables suitable for reporting or downstream consumption.
 - Built using PySpark notebooks in Databricks, with Delta Lake for reliable, versioned storage at each layer.
-- - **Power BI** — connects to the Gold layer to visualize key metrics and trends on an interactive dashboard.
+- **Power BI** — connects to the Gold layer to visualize key metrics and trends on an interactive dashboard.
 - **CI/CD** — GitHub Actions automates deployment of pipeline and notebook changes, reducing manual release effort.
 
 ## Repository structure
@@ -78,6 +78,6 @@ MALAVIKA-S/
 
 ## Author
 
-**Malavika S**
+**Malavika S** |
 Data Engineer | Azure · Databricks · PySpark · SQL
 [LinkedIn](https://www.linkedin.com/in/malavika-s-35a383215) · smalavika845@gmail.com
